@@ -1,4 +1,4 @@
-def test_format_data_for_display(people):
+def test_format_data_for_display():
     people = [
         {
             "given_name": "Alfonsa",

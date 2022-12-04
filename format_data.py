@@ -1,5 +1,8 @@
-def test_format_data_for_display(people):
-    people = [
+def format_data_for_display(people):
+    return   people
+
+
+people = [
         {
             "given_name": "Alfonsa",
             "family_name": "Ruiz",
@@ -11,8 +14,4 @@ def test_format_data_for_display(people):
             "title": "Project Manager",
         },
     ]
-
-    assert format_data_for_display(people) == [
-        "Alfonsa Ruiz: Senior Software Engineer",
-        "Sayid Khan: Project Manager",
-    ]
+print(format_data_for_display(people))
